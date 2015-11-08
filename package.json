@@ -1,0 +1,24 @@
+{
+  "name": "which-os-version",
+  "version": "1.0.0",
+  "description": "Get the name of a Windows version from the release number 5.1.2600 → XP",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test.js",
+	"ci": "mocha test.js"
+  },
+  "keywords": [
+    "os",
+	"version",
+	"windows version"
+  ],
+  "author": {
+    "name": "Vikram Jadhav",
+    "email": "vikramcse.10@gmail.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3"
+  }
+}
